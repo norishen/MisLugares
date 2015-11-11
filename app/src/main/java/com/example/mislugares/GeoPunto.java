@@ -15,6 +15,11 @@ public class GeoPunto {
         this.latitud= latitud;
     }
 
+    public GeoPunto(int longitud, int latitud) {
+        this.longitud= (double)longitud;
+        this.latitud= (double)latitud;
+    }
+
     public String toString() {
 //        return new String("longitud:" + longitud + ", latitud:"+ latitud);
         return ("longitud:" + longitud + ", latitud:"+ latitud);
@@ -22,6 +27,7 @@ public class GeoPunto {
 
     public double distancia(GeoPunto punto) {
         final double RADIO_TIERRA = 6371000; // en metros
+
         double dLat = Math.toRadians(latitud - punto.latitud);
         double dLon = Math.toRadians(longitud - punto.longitud);
         double lat1 = Math.toRadians(punto.latitud);
@@ -30,6 +36,7 @@ public class GeoPunto {
                 Math.sin(dLon/2) * Math.sin(dLon/2) *
                         Math.cos(lat1) * Math.cos(lat2);
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+
         return c * RADIO_TIERRA;
     }
 
