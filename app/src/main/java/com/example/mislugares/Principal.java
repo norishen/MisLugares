@@ -1,6 +1,9 @@
 package com.example.mislugares;
 
-import java.lang.String;import java.lang.System; /**
+import java.lang.String;
+import java.lang.System;
+
+/**
  * Creado por jcc314 on 11/11/15.
  */
 class Principal {

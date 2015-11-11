@@ -1,7 +1,11 @@
 package com.example.mislugares;
 
-import java.lang.Override;import java.lang.String;import java.lang.System; /**
- * Created by jcc314 on 11/11/15.
+import java.lang.Override;
+import java.lang.String;
+import java.lang.System;
+
+/**
+ * Creado por jcc314 on 11/11/15.
  */
 public class Lugar {
     private String nombre;

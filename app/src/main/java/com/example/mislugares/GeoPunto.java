@@ -1,7 +1,10 @@
 package com.example.mislugares;
 
-import java.lang.Math;import java.lang.String; /**
- * Created by jcc314 on 11/11/15.
+import java.lang.Math;
+import java.lang.String;
+
+/**
+ * Creado por jcc314 on 11/11/15.
  */
 public class GeoPunto {
 
@@ -13,7 +16,8 @@ public class GeoPunto {
     }
 
     public String toString() {
-        return new String("longitud:" + longitud + ", latitud:"+ latitud);
+//        return new String("longitud:" + longitud + ", latitud:"+ latitud);
+        return ("longitud:" + longitud + ", latitud:"+ latitud);
     }
 
     public double distancia(GeoPunto punto) {
