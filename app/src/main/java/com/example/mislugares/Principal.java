@@ -1,7 +1,7 @@
 package com.example.mislugares;
 
 import java.lang.String;import java.lang.System; /**
- * Created by jcc314 on 11/11/15.
+ * Creado por jcc314 on 11/11/15.
  */
 class Principal {
     public static void main(String[] main) {
